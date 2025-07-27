@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Jasmine Through Media</title>
+</head>
+<body>
+
+  <h1>Jasmine Daniel, My Story Through Media</h1>
+
+  <section>
+    <h2>Responsive Picture of Me</h2>
+    <p>Depending on your screen size, this image will adjust. Try resizing your browser!</p>
+
+    <picture>
+      <source media="(max-width: 600px)" srcset="jas">
+      <source media="(max-width: 1024px)" srcset="images/jasmine-tablet.jpg">
+      <img src="Jasmine.jpg" alt="Jasmine Daniel smiling">
+    </picture>
+  </section>
+
+  <section>
+    <h2> A Voice Note from Me</h2>
+    <p>Listen to a short intro where I explain who I am and why I love tech!</p>
+    
+    <audio controls>
+      <source src="audio/jasmine-intro.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <section>
+    <h2> My Journey So Far</h2>
+    <p>Here’s a short video about my passion for tech and why I joined AltSchool School of Engineering.</p>
+
+    <video width="320" height="240" controls>
+      <source src="https://youtu.be/_4xlFCUTSr0?si=5usE-i5BbaD0Mn3p" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  
+</body>
+</html>
